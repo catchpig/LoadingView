@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="loading_view_style" />
+    <declare-styleable name="LoadingView">
+        <!--圆圈的大小-->
+        <attr format="dimension" name="loading_view_size" />
+        <!--圆圈的颜色-->
+        <attr format="color" name="loading_view_color" />
+        <!--圆圈的loading间隔时间-->
+        <attr format="integer" name="loading_view_duration"/>
+    </declare-styleable>
+</resources>
