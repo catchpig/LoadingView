@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LoadingView loadingView = findViewById(R.id.loading);
+        loadingView.setLoadColor(R.color.colorAccent);
     }
 }
